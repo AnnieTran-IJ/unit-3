@@ -52,7 +52,7 @@ ScreenManager:
                 size: self.size
 
         MDLabel:
-            text: "Your Name"
+            text: "Annie"
             halign: "center"
             theme_text_color: "Custom"
             text_color: 0, 0, 0, 1
@@ -82,7 +82,7 @@ ScreenManager:
                 size: self.size
 
         MDLabel:
-            text: "Your Name"
+            text: "Annie"
             halign: "center"
             theme_text_color: "Custom"
             text_color: 1, 1, 1, 1
@@ -101,5 +101,6 @@ ScreenManager:
 
 ```
 ## Proof of work
-![image](https://github.com/user-attachments/assets/e54b1bff-72c1-4a7c-9c0e-c46031ff9605)
+![image](https://github.com/user-attachments/assets/7881305f-b59d-44c5-82e6-5b303dfec079)
+
 
