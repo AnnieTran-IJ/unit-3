@@ -1,4 +1,7 @@
 # Quiz 035
+## Diagram
+![image](https://github.com/user-attachments/assets/15b2b747-dcd9-4935-841d-857092593902)
+
 
 ## Code
 ```.py
