@@ -1,0 +1,210 @@
+MDScreen:
+    md_bg_color: "#2f2d2d"
+
+    MDBoxLayout:
+        orientation: "vertical"
+        padding: 10
+        spacing: 10
+
+        # Display area
+        MDLabel:
+            id: display
+            text: "0"
+            halign: "right"
+            font_size: "48sp"
+            size_hint_y: None
+            height: "100dp"
+            theme_text_color: "Custom"
+            text_color: "#FFFFFF"
+            padding: 10, 10
+
+
+        # Buttons grid
+        GridLayout:
+            cols: 4
+            spacing: 10
+            size_hint_y: None
+            height: self.minimum_height
+
+            # Row 1
+            MDFillRoundFlatButton:
+                text: "AC"
+                text_color: "#000000"
+                md_bg_color: "#d4d4d2"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.clear()
+
+            MDFillRoundFlatButton:
+                text: "+/-"
+                text_color: "#000000"
+                md_bg_color: "#d4d4d2"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.negate()
+
+            MDFillRoundFlatButton:
+                text: "%"
+                text_color: "#000000"
+                md_bg_color: "#d4d4d2"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.percent()
+
+            MDFillRoundFlatButton:
+                text: "÷"
+                text_color: "#FFFFFF"
+                md_bg_color: "#f09a36"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.operator("÷")
+
+            # Row 2
+            MDFillRoundFlatButton:
+                text: "7"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("7")
+
+
+            MDFillRoundFlatButton:
+                text: "8"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("8")
+
+            MDFillRoundFlatButton:
+                text: "9"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("9")
+
+            MDFillRoundFlatButton:
+                text: "×"
+                text_color: "#FFFFFF"
+                md_bg_color: "#f09a36"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.operator("*")
+
+            # Row 3
+            MDFillRoundFlatButton:
+                text: "4"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("4")
+
+            MDFillRoundFlatButton:
+                text: "5"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("5")
+
+            MDFillRoundFlatButton:
+                text: "6"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("6")
+
+            MDFillRoundFlatButton:
+                text: "-"
+                text_color: "#FFFFFF"
+                md_bg_color: "#f09a36"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.operator("-")
+
+            # Row 4
+            MDFillRoundFlatButton:
+                text: "1"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("1")
+
+            MDFillRoundFlatButton:
+                text: "2"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("2")
+
+            MDFillRoundFlatButton:
+                text: "3"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("3")
+
+            MDFillRoundFlatButton:
+                text: "+"
+                text_color: "#FFFFFF"
+                md_bg_color: "#f09a36"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.operator("+")
+
+            # Row 5
+            MDFillRoundFlatButton:
+                text: "X"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+
+            MDFillRoundFlatButton:
+                text: "0"
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+                on_release: app.number("0")
+
+            MDFillRoundFlatButton:
+                text: "."
+                text_color: "#FFFFFF"
+                md_bg_color: "#505050"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]
+
+            MDFillRoundFlatButton:
+                text: "="
+                text_color: "#FFFFFF"
+                md_bg_color: "#f09a36"
+                size_hint: None, None
+                size: "60dp", "60dp"
+                radius: [30]

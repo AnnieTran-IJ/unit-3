@@ -1,0 +1,125 @@
+MDScreen:
+    size: 500, 900
+
+    ScreenManager:
+        id: scr_manager
+        LoginScreen:
+            name: "LoginScreen"
+        SignupScreen:
+            name: "SignupScreen"
+<LoginScreen>:
+    FitImage:
+        source: "cover.jpg"
+        size_hint: 1, 1
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+    MDCard:
+        orientation: "vertical"
+        spacing: 20
+        padding: 20
+        size_hint: None, None #size cho set kích thước cụ thể còn size_hint là proportional theo screen. size can only be used when size_hint = None, None
+        size: 400, 650
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        md_bg_color: 1, 1, 1
+
+        MDLabel:
+            text: "Login"
+            halign: "center"
+            font_style: "H4"
+
+        MDTextField:
+            id: login_email
+            hint_text: "Enter username or email"
+            icon_left: "email"
+            size_hint_x: None
+            width: 280
+            pos_hint: {"center_x": 0.5}
+
+        MDTextField:
+            id: login_password
+            hint_text: "Enter password"
+            icon_left: "key"
+            password: True
+            size_hint_x: None
+            width: 280
+            pos_hint: {"center_x": 0.5}
+
+        MDRaisedButton:
+            text: "Login"
+            size_hint_x: None
+            width: 200
+            pos_hint: {"center_x": 0.5}
+
+        MDTextButton:
+            text: "Don't have an account? Sign up"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.switch_to_signup()
+
+<SignupScreen>:
+    FitImage:
+        source: "cover.jpg"
+        size_hint: 1, 1
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+    MDCard:
+        orientation: "vertical"
+        spacing: 20
+        padding: 20
+        size_hint: None, None #size cho set kích thước cụ thể còn size_hint là proportional theo screen. size can only be used when size_hint = None, None
+        size: 400, 650
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        md_bg_color: 1, 1, 1
+
+        MDLabel:
+            text: "Register"
+            halign: "center"
+            font_style: "H4"
+
+        MDTextField:
+            id: signup_name
+            hint_text: "Enter username"
+            icon_left: "account"
+            size_hint_x: None
+            width: 280
+            pos_hint: {"center_x": 0.5}
+            helper_text_mode: "on_error"
+
+        MDTextField:
+            id: signup_email
+            hint_text: "Enter email"
+            icon_left: "email"
+            size_hint_x: None
+            width: 280
+            pos_hint: {"center_x": 0.5}
+
+        MDTextField:
+            id: signup_password
+            hint_text: "Enter password"
+            icon_left: "key"
+            password: True
+            size_hint_x: None
+            width: 280
+            pos_hint: {"center_x": 0.5}
+
+        MDTextField:
+            id: confirm_password
+            hint_text: "Confirm password"
+            icon_left: "key"
+            password: True
+            size_hint_x: None
+            width: 280
+            pos_hint: {"center_x": 0.5}
+            helper_text_mode: "on_error"
+
+
+        MDRaisedButton:
+            text: "Sign Up"
+            size_hint_x: None
+            width: 200
+            pos_hint: {"center_x": 0.5}
+            on_release: root.try_register()
+
+        MDTextButton:
+            text: "Have an account? Log in"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.switch_to_login()
