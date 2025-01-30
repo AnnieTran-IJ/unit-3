@@ -1,5 +1,8 @@
 # Quiz 034
 
+## Diagram
+![image](https://github.com/user-attachments/assets/49c1db04-7619-434e-b13b-97fd33f20bc2)
+
 ## Code
 ```.py
 class Flight:
