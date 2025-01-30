@@ -104,6 +104,8 @@ ScreenManager:
 
 ```
 ## Proof of work
+![image](https://github.com/user-attachments/assets/09d62ecf-626a-4d31-91e8-9bfbfc3ad65f)
+
 ![image](https://github.com/user-attachments/assets/7881305f-b59d-44c5-82e6-5b303dfec079)
 
 
