@@ -1,7 +1,8 @@
 # Quiz 034
 
 ## Diagram
-![image](https://github.com/user-attachments/assets/49c1db04-7619-434e-b13b-97fd33f20bc2)
+![image](https://github.com/user-attachments/assets/629e8d14-0aef-4cd1-a88b-2e10b14dabe1)
+
 
 ## Code
 ```.py
