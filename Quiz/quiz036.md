@@ -1,4 +1,7 @@
 # Quiz 036
+## Diagram
+![image](https://github.com/user-attachments/assets/fb0fd20e-ea02-434f-98c3-64e3141f3877)
+
 
 ## Code
 ```.py
