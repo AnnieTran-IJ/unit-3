@@ -1,6 +1,7 @@
 # Quiz 043
 
 ## Paper Solution
+![image](https://github.com/user-attachments/assets/fc93763a-a1c1-4bc5-973f-c867b66a90ae)
 
 ## Flow Chart
 ### UML Diagram
