@@ -1,6 +1,7 @@
 # Quiz 047
 
 ## Paper Solution
+![image](https://github.com/user-attachments/assets/6d4dff22-6e38-4411-b2eb-071a965e9c53)
 
 ## Code
 ```.py
