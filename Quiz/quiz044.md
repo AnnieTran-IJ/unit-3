@@ -1,7 +1,8 @@
 # Quiz 044
 
 ## Paper Solution
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/82e4d058-4ff1-4c2e-a247-5ac9e22519b4)
+
 
 ## Flow Chart
 ![image](https://github.com/user-attachments/assets/bc28cfb2-3a3b-4a2f-b699-1b0dd039114a)
