@@ -3,6 +3,9 @@
 ## Paper Solution
 
 ## Flow Chart
+### UML Diagram
+![image](https://github.com/user-attachments/assets/426a88b1-5133-4481-b59a-e34ca2344039)
+
 ## Code
 ```.py
 class palNum():
