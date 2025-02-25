@@ -1,6 +1,7 @@
 # Quiz 045
 
 ## Paper Solution
+![image](https://github.com/user-attachments/assets/3585ed9e-64e2-4691-83f1-5d21a6fe9939)
 
 ## Flow Chart
 ![image](https://github.com/user-attachments/assets/0adfd0cc-ce53-4dc5-898a-29ffc21d32ff)
