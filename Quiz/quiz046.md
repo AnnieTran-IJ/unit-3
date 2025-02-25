@@ -3,6 +3,8 @@
 ## Paper Solution
 
 ## Flow Chart
+![image](https://github.com/user-attachments/assets/798e656e-8726-499b-950d-1ac9286ff9c6)
+
 ## Code
 ```.py
 class Citizen:
