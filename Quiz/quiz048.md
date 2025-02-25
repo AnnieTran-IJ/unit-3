@@ -1,8 +1,11 @@
 # Quiz 048
 
 ## Paper Solution
+![image](https://github.com/user-attachments/assets/fef43ddf-c807-4bb5-87b1-f320b2d25fa4)
 
 ## Flow Chart
+![image](https://github.com/user-attachments/assets/362be7ab-99b2-4f36-8f06-b353d6b753aa)
+
 ## Code
 ```.py
 class Book:
