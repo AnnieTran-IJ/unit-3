@@ -1,9 +1,8 @@
 # Quiz 041
 
-## Paper Solution
-
 ## Flow Chart
 ### UML Diagram
+![image](https://github.com/user-attachments/assets/77f114fe-b7cb-4f38-9337-fde4360cf3d4)
 
 ### ER Diagram
 ![image](https://github.com/user-attachments/assets/bffb8c49-307d-472b-8e13-11a8fce90df2)
@@ -384,4 +383,5 @@ MDScreen:
                 font_style: "Caption"
 ```
 ## Proof of work
-*Run it with the input and output given*
+Video proof
+[exercise02.py – quiz041.py 2025-02-25 09-09-58.zip](https://github.com/user-attachments/files/18952891/exercise02.py.quiz041.py.2025-02-25.09-09-58.zip)
