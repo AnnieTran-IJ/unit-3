@@ -1,4 +1,4 @@
-# Unit 2: A Food Ordering Application
+# Unit 3: A Food Ordering Application
 
 ## Criteria A: Planning
 
@@ -29,7 +29,7 @@ By integrating Python, KivyMD, and SQLite, this solution delivers a user-friendl
 → Issue tackled: "They lack a system for keeping track of which order is made and which are not.”
 
 #### Client Approval of Success Criteria
-![image](https://github.com/user-attachments/assets/7ae4d030-ecc0-4ecd-a11f-41cfe4236234)
+![Documentation Project 3  Comp SCi](https://github.com/user-attachments/assets/6d822f41-8217-4184-b3dd-bff03434c07a)
 
 **Fig 1.** Email conversation thread with the client.
 
