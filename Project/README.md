@@ -1,4 +1,5 @@
 # Unit 3: A Food Ordering Application
+![image](https://github.com/user-attachments/assets/d7fd685c-2ace-4ff2-87b0-2c121f76b2ef)
 
 ## Criteria A: Planning
 
