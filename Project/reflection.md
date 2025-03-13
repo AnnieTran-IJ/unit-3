@@ -9,4 +9,4 @@ I tried combining the concept of a secret management program that we did in Proj
 I will update the record of task and plan out the wireframe earlier. Also, I will plan out what I want to write for Criteria C a bit sooner too, and dig deep into 3 complex function instead of too many functions.
 
 ## Q4. What do you need help with?
-Diagram! I understand the logic but I can't seem to understand how to put it back in flowchart.
+Flow Diagram! I understand the logic but I can't seem to understand how to put it back in flowchart. I learnt if statement should go back:) 
